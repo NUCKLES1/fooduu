@@ -1,0 +1,190 @@
+.contain {
+  display: column;
+  background-color: white;
+  width: 95%;
+  height: 100vh;
+  display: column;
+}
+
+.chatIcon {
+  padding-right: 4rem;
+}
+
+.cartlist {
+  margin-left: 1rem;
+  display: flex;
+  width: 98%;
+  height: 9rem;
+  background-color: whitesmoke;
+  margin-top: 2rem;
+  text-align: left;
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.pusher {
+  padding-bottom: 15rem;
+  padding-top: 5rem;
+}
+
+.imgboxing img{
+  object-fit: cover;
+  margin-top: 0.8em;
+  margin-left: 0.8em;
+  height: 120px;
+  width: 125px;
+  border-radius: 1rem;
+}
+
+.Bar {
+  position: fixed;
+  display: flex;
+  padding-top: 1rem;
+  width: 94%;
+  padding-left: 1.4rem;
+  justify-content: space-between;
+  background-color: white;
+  height: 4rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+ 
+}
+
+.naviBar {
+  position: fixed;
+  display: contents;
+  top: 0rem;
+  width: 100%;
+  background-color: white;
+  height: 5rem;
+}
+
+.user {
+  display: flex;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 1.3rem;
+  margin-right: 73%;
+}
+
+.cart-item {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2em;
+  font-family: var(--font-mono);
+  color: gray;
+  font-size: 1.3rem;
+  font-family: sans-serif, monospace, Georgia, Times, serif;
+}
+
+.dete {
+  padding-left: 1rem;
+  height: 3rem; 
+  justify-content: left;
+  text-align: left;
+}
+
+.dete p{
+  font-family: sans-serif, monospace, Georgia, Times, serif;
+  font-size: 1.3rem;
+}
+
+.add_button {
+  border: none;
+  height: 2rem;
+  font-size: 1.3em;
+  color: white;
+  margin-left: 6rem;
+  margin-bottom: 2rem;
+  background-color: #08f26e;
+  border-radius: 7px;
+} 
+
+.add_button:hover {
+background-color: orange;
+
+}
+
+.add_button:active {
+  transform: translateY(2px);
+}
+
+.Buttonadder {
+  display: flex;
+  margin-top: 0.5rem;
+  justify-content: center;
+  width: 6rem;
+}
+
+._button {
+  background-color: #08f26e;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1em;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.button {
+  background-color: #08f26e;
+  margin-left: 1rem;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1em;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.delbutton {
+  margin-left: 7rem;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1em;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  background-color: #08f26e;
+}
+
+.cartitemTotal {
+  font-size: 2rem;
+  font-weight: 100;
+  padding-left: 1rem;
+  color: white;
+}
+
+
+.Total {
+  margin-top: 170%;
+  padding-left: 2.6rem;
+  position: fixed;
+  width: 90%;
+  background-color: orange;
+  align-items: center;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.order {
+  width: 80%;
+  border-radius: 0.5rem;
+  border: none;
+  margin-top: 1rem;
+   margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  background-color: #08f26e;
+}
+
+.Total h3 {
+  padding-left: 1rem;
+  color: white;
+  font-family: sans-serif, monospace, Georgia, Times, serif;
+}
+.Total h2 {
+  font-family: sans-serif, monospace, Georgia, Times, serif;
+  font-size: 1.6em;
+  color: white;
+}

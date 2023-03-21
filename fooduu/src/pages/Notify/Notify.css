@@ -1,0 +1,79 @@
+.contain3 {
+    display: block;
+    height: 100vh;
+}
+
+.user {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    top: 2.5rem;
+    margin-left: 1rem;
+}
+
+.navBar {
+    position: fixed;
+    background-color: whitesmoke;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.chatlogo {
+    margin-top: 1.2rem;
+    position: fixed;
+    left: 86%;
+}
+
+.Bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.back {
+   margin-bottom: 0.1rem;
+}
+
+.holding {
+    display: block;
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.messageCard {
+    display: flex;
+    width: 100%;
+    background-color: whitesmoke;
+    justify-content: center;
+    margin-top: 2rem;
+    text-align: left;
+    border-radius: 1rem; 
+    box-shadow: 0 8px 32px 0
+    rgba(0, 0, 0, 0.3);
+}
+
+.logoApp {
+    border-radius: 50%;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.content {
+    margin-top: rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    font-family: sans-serif, monospace,Georgia, Times, serif;
+    font-size: 1.2rem;
+    display: block;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.descriptiontext {
+    font-size: 1.2rem; 
+    padding-top: 1rem;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,151 @@
+.cardio {
+    width: 100%;
+    display: column;
+    justify-content: center;
+    font-family: var(--font-mono);
+}
+
+.Header_bar {
+    width: 100%;
+    padding-left: 0.5rem;
+    background-color: whitesmoke;
+}
+
+.listHolder {
+    display: flex;
+    width: 100%;
+    height: 9rem;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    text-align: left;
+    border-radius: 1rem;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.imgbox {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.imgbox img {
+    object-fit: cover;
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+    height: 120px;
+    width: 125px;
+    border-radius: 1rem;
+}
+
+.add_button {
+    border: none;
+    height: 2rem;
+    font-size: 1.3em;
+    color: white;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    background-color: #08f26e;
+    border-radius: 7px;
+}
+
+.add_button:hover {
+    background-color: orange;
+
+}
+
+.add_button:active {
+    transform: translateY(2px);
+}
+
+.detailing {
+    padding-left: 1rem;
+    height: 3rem;
+    justify-content: left;
+    text-align: left;
+}
+
+.detailing p {
+    font-family: sans-serif, monospace, Georgia, Times, serif;
+    font-size: 1.3rem;
+}
+
+.coloring {
+    color: #08f26e;
+}
+
+.SearchBar {
+    display: column;
+    width: 93%;
+    height: 100vh;
+    background-color: white;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.search-button{
+    margin-left: 1rem;
+}
+
+.Form {
+    position: absolute;
+    display: flex;
+    width: 78%;
+    margin-left: 13%;
+    height: 3rem;
+    background-color: #f1f1f1;
+    border-radius: 1rem;
+    top: 1rem;
+    border: none;
+}
+
+.Form :focus {
+    outline-color: #08f26e;
+    background-color: #f5f5f5;
+}
+
+.cardioholder {
+    width: 100%;
+    display: column;
+    justify-content: center;
+    font-family: var(--font-mono);
+    padding-top: 5rem;
+}
+
+.listholder {
+    display: flex;
+    width: 100%;
+    height: 9rem;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    text-align: left;
+    border-radius: 1rem;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.Searchbutton {
+    position: fixed;
+    text-align: left;
+    display: flex;
+    margin-bottom: 4rem;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+}
+
+.backupButton {
+    margin-top: 8px;
+    border-radius: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.backupButton ::after{
+    background-color: red;
+}
+
+.Form img {
+    margin-top: 8px;
+    width: 2rem;
+    height: 2rem;
+}

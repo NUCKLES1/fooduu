@@ -8,7 +8,7 @@ export const Homepage = ({
   cartItems,
   productItems,
   handleAddProduct,
-  handleViewProduct
+  handleViewProduct,
 }) => {
 
   return (

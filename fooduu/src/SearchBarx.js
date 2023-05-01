@@ -1,15 +1,16 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../Explainer/Explainer.css";
-
-export const Explainer = ({
-  viewItems,
-  productItems,
-  handleAddProduct,
-  handleRemoveProduct,
+import React from 'react'
+import "./Explainer/Explainer.css"
+import { Link } from 'react-router-dom'
+export const SearchBarx = ({
+    viewItems,
+    productItems,
+    handleAddProduct,
+    handleRemoveProduct,
 }) => {
+
+
   return (
-    <div className="full">
+<div className="full">
       <div className="toPBar">
         <Link to="/Homepage">
           <img className="backButton" src="whiteleft.png" alt="" />
@@ -56,6 +57,5 @@ export const Explainer = ({
         ))}
       </div>
     </div>
-  );
-};
-export default Explainer;
+  )
+}

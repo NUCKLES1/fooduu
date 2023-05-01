@@ -1,0 +1,69 @@
+ [
+   {
+      "id": 1,
+      "name":"Vegetable Noodles",
+      "price":"$1400",
+      "image":"food1.jpg"
+   },
+   {
+      "id": 2,
+      "name":"Pizza Hut-Lumintu",
+      "price":"$100",
+      "image":"food2.jpg"
+   },
+   {
+      "id": 3,
+      "name":"Cheese Burger",
+      "price":"$1200",
+      "image":"food3.jpg"
+   },
+
+   {
+    "id": 4,
+    "name":"Fruit Salad-Kumpa",
+    "price":"$1200",
+    "image":"food4.jpg"
+ },
+ {
+    "id": 5,
+    "name":"Combo BigBoys",
+    "price":"$1200",
+    "image":"food5.jpg"
+ },
+ {
+    "id": 6,
+    "name":"Mixed salad bonb...",
+    "price":"$6.00",
+    "image":"salad1.jpg"
+ },
+ {
+    "id": 6,
+    "name":"Mixed salad bonb...",
+    "price":"$6.00",
+    "image":"salad6.jpg"
+ },
+ {
+    "id": 6,
+    "name":"Mixed salad bonb...",
+    "price":"$6.00",
+    "image":"salad3.jpg"
+ },
+ {
+    "id": 6,
+    "name":"Mixed salad bonb...",
+    "price":"$6.00",
+    "image":"salad2.jpg"
+ },
+ {
+    "id": 6,
+    "name":"Mixed salad bonb...",
+    "price":"$6.00",
+    "image":"salad4.jpg"
+ },
+ {
+    "id": 6,
+    "name":"Mixed salad bonb...",
+    "price":"$6.00",
+    "image":"salad5.jpg"
+ }
+]

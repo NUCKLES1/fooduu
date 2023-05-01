@@ -8,6 +8,7 @@ const App = () => {
   const [cartItems, setCartItems ] = useState([]);
   const [viewItems, setViewItems] = useState([]);
 
+
   const handleAddProduct = (product) => {
     const ProductExist = cartItems.find((item) => item.id === product.id);
     if (ProductExist) {
@@ -28,7 +29,7 @@ const App = () => {
       setViewItems(
         viewItems.map((item) =>
           item.id === product.id
-            ? { ...ProductExist, quantity: ProductExist.quantity + 0 }
+            ? { ...ProductExist, quantity: ProductExist.quantity }
             : item
         )
       );

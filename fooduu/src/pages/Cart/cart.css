@@ -79,14 +79,14 @@
   font-family: sans-serif, monospace, Georgia, Times, serif;
 }
 
-.dete {
+.detecon {
   padding-left: 1rem;
   height: 3rem; 
   justify-content: left;
   text-align: left;
 }
 
-.dete p{
+.detecon p{
   font-family: sans-serif, monospace, Georgia, Times, serif;
   font-size: 1.3rem;
 }

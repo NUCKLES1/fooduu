@@ -12,25 +12,96 @@
     width: 100%;
     padding-left: 1.4rem;
     justify-content: space-between;
-    background-color:  rgba(65, 65, 65, 0.25);
+    background-color:  rgba(0, 0, 0, 0.3);
     height: 4rem;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 
+.Pusher {
+    padding-bottom: 1rem;
+  }
 
-.CartList {
+
+.cartTist {
     display: block;
-    width: 100%;
-    height: 40%;
+    width: 95%;
+    height: 100%;
 }
 
-.imgBoX img{
+.imgBoXing img{
     object-fit: cover;
     width: 100%;
-    height: 30%;
+    height: 25rem;
 }
 
 .boxpad {
+    height: 80%;
     width: 80%;
     display: flex;
 }
+
+.dete {
+    padding-left: 1rem;
+    height: 3rem; 
+    justify-content: left;
+    text-align: left;
+}
+
+.dete p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.dete span{
+    font-size: 1.5rem;
+}
+.spanit {
+    font-size: 1.2rem;
+    width: 25rem;
+}
+.dete1 p{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+.dete1 span{
+    font-size: 1rem;
+}
+
+.Buttonadder1 {
+    display: flex;
+    margin-top: 9rem;
+    margin-left: 5rem;
+    justify-content: space-between;
+    width: 15rem;
+  }
+
+  ._buttoning {
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2em;
+    border-radius: 10px;
+    color: #08f26e;
+    border: 1px solid;
+    border-color: gray;
+  }
+
+  .item-quantity {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .add_button_:active {
+    transform: translateY(2px);
+  }
+
+  .add_button_ {
+    border: none;
+    height: 3rem;
+    width: 22rem;
+    font-size: 1.3em;
+    color: white;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    background-color: #08f26e;
+    border-radius: 20px;
+  } 

@@ -3,9 +3,9 @@ import "../Cart/cart.css";
 import { Link } from "react-router-dom";
 
 export const Cart = ({ cartItems, handleAddProduct, handleRemoveProduct }) => {
+
   const totalPrices = cartItems.reduce(
-    (price, item) => price + item.quantity * item.Price,
-    0
+    (price, item) => item.quantity + item.price,0
   );
   return (
     <div className="contain">
@@ -33,12 +33,12 @@ export const Cart = ({ cartItems, handleAddProduct, handleRemoveProduct }) => {
           </div>
 
         <div className="pusher">
-          {cartItems.map((item) => (
+        {cartItems.map((item) => (
             <div key={item.id} className="cartlist">
               <div className="imgboxing">
                 <img src={item.image} alt="" />
               </div>
-              <div className="dete">
+              <div className="detecon">
                 <p>{item.name}</p>
                 <p className="coloring">
                   {" "}
@@ -60,7 +60,7 @@ export const Cart = ({ cartItems, handleAddProduct, handleRemoveProduct }) => {
                 </p>
               </div>
             </div>
-          ))}         
+          ))}     
         </div>
         <div className="cart-item">
           {cartItems.length === 0 && <div><h2> Cart is empty</h2></div>}

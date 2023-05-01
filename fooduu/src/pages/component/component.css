@@ -41,7 +41,7 @@
     height: 2rem;
     font-size: 1.3em;
     color: white;
-    margin-left: 7rem;
+    margin-left: 6rem;
     margin-bottom: 2rem;
     background-color: #08f26e;
     border-radius: 7px;
@@ -74,10 +74,10 @@
 
 .SearchBar {
     display: column;
-    width: 93%;
+    width: 96%;
     height: 100vh;
     background-color: white;
-    padding: 1rem;
+    padding: rem;
     justify-content: space-between;
 }
 
@@ -105,6 +105,7 @@
 .cardioholder {
     width: 100%;
     display: column;
+    text-align: center;
     justify-content: center;
     font-family: var(--font-mono);
     padding-top: 5rem;
@@ -121,10 +122,16 @@
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 
+.Template {
+    padding-left: 1rem;
+    padding-top: 4rem;
+}
+
 .Searchbutton {
     position: fixed;
     text-align: left;
     display: flex;
+    margin-left: 1rem;
     margin-bottom: 4rem;
     background-color: white;
     justify-content: space-between;

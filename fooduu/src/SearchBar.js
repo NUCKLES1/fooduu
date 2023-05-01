@@ -1,20 +1,10 @@
 import React, { useState } from "react";
 import "./pages/component/component.css";
 import { Link } from "react-router-dom";
-import data from "./data";
+import data from "./TemplateData.json";
 
-export const SearchBar = ({
-  productItems,
-  handleAddProduct,
-  handleViewProduct,
-}) => {
-  const [data, setData] = -useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
-
-  console.log(data);
+export const SearchBar = ({ handleAddProduct,handleViewProduct,productItems }) => {
+  const [searchTerm, setSearchTerm] = useState("");
 
   return (
     <>
@@ -30,35 +20,49 @@ export const SearchBar = ({
                 className="search"
                 type="text"
                 placeholder="Search"
-                onChange={(e) => setData(e.target.value)}
+                onChange={(event) => {
+                  setSearchTerm(event.target.value);
+                }}
               />
-              onSubmit={(e) => handleSubmit(e)}
             </form>
           </div>
         </div>
-        <div className="cardioholder">
-          {productItems.map((productItems) => (
-            <div className="listholder">
-              <Link to="/moreinfo">
-                <div
-                  className="imgbox"
-                  onClick={() => handleViewProduct(productItems)}
-                >
-                  <img src={productItems.image} alt="" />
+
+        <div className="Template">
+          {data
+            .filter((val) => {
+              if (searchTerm === "") {
+                return val;
+              } else if (
+                val.name.toLowerCase().includes(searchTerm.toLowerCase())
+              ) {
+                return val;
+              }
+            })
+            .map((val) => {
+              return (
+                <div key={val.id} className="listHolder">
+                  <Link
+                    to="/SearchBarx"
+                    onClick={() => handleViewProduct(productItems)}
+                  >
+                    <div className="imgboxing">
+                      <img src={val.image} alt="" />
+                    </div>
+                  </Link>
+                  <div className="dete1">
+                    <p>{val.name}</p>
+                    <p className="coloring">{val.price}</p>
+                    <button
+                      className="add_button"
+                      onClick={() => handleAddProduct(val)}
+                    >
+                      Add to cart
+                    </button>
+                  </div>
                 </div>
-              </Link>
-              <div className="detailing">
-                <p>{productItems.name}</p>
-                <p className="coloring">{productItems.price}</p>
-                <button
-                  className="add_button"
-                  onClick={() => handleAddProduct(productItems)}
-                >
-                  Add to cart
-                </button>
-              </div>
-            </div>
-          ))}
+              );
+            })}
         </div>
       </div>
     </>

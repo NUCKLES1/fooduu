@@ -12,11 +12,13 @@ import Seeall3 from "./Homepage/More/Seeall3";
 import Login from "./Login/Login";
 import Register from "./Register/Register";
 import Slider from "../Slider/Slider";
+import { SearchBarx } from "../SearchBarx";
 
 export const Routing = ({
   productItems,
-  cartItems,
+  val,
   viewItems,
+  cartItems,
   handleAddProduct,
   handleRemoveProduct,
   handleViewProduct,
@@ -48,13 +50,22 @@ export const Routing = ({
         />
         <Route path="/notify" element={<Notify />} />
         <Route path="/chat" element={<Chat />} />
-        <Route path="/moreinfo" element={<Explainer viewItems={viewItems} />} />
+        <Route path="/Moreinfo" element={<Explainer viewItems={viewItems} 
+        handleAddProduct={handleAddProduct}
+        productItems={productItems}
+         handleRemoveProduct={handleRemoveProduct}
+        />} />
         <Route
           path="/SearchBar"
-          element={<SearchBar productItems={productItems} />}
-          handleAddProduct={handleAddProduct}
-          handleViewProduct={handleViewProduct}
+          element={
+            <SearchBar
+              productItems={productItems}
+              handleAddProduct={handleAddProduct}
+              handleViewProduct={handleViewProduct}
+            />
+          }
         />
+        <Route path="/SearchBarx" element={<SearchBarx />} />
         <Route path="/Seeall1" element={<Seeall1 />} />
         <Route path="/Seeall2" element={<Seeall2 />} />
         <Route path="/Seeall3" element={<Seeall3 />} />
